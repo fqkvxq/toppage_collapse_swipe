@@ -1,0 +1,41 @@
+/* フォント変更 */
+body {
+    font-family: "Mplus 1p";
+    font-weight: 300;
+    background-color: #F1F4F4;
+}
+
+/*navbarの太さ*/
+.navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* collapseのボタンの枠線を非表示 */
+.navbar-light .navbar-toggler {
+    border:none;
+}
+
+.three-buttons {
+    margin-top: 10px !important;
+}
+
+h2 {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-top: 2px solid #212121;
+    border-bottom: 2px solid #212121;
+}
+
+h3 {
+    margin: 20px 0 !important;
+}
+.collapse_button {
+    font-size: 1.2rem;
+    padding:0;
+    text-decoration:none !important;
+    color: #212121 !important;
+}
+.collapse_button>.h4 {
+    margin-bottom: 0;
+}
