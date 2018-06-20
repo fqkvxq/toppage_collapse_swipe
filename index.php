@@ -492,61 +492,68 @@
                 </div><!--/collapseTarget-->
             </div>
         </div><!-- /row --><!--/期間工のミカタとは-->
-        <!-- /row -->
         <div class="row">
             <div class="col-12">
-                <h2 class="text-center h4">期間工のミカタ3つの特徴<br>
-                <span class="h6">3 types of features of kikankounomikata</span>
-                </h2>
+                  <h2 class="text-center">
+                    <button class="btn collapse_button btn-link" data-toggle="collapse" data-target="#collapseSixFeatures" aria-expanded="true" aria-controls="collapseSixFeatures">
+                    <span class="h4">期間工のミカタ６つの特徴</span>
+                    <br>
+                    <span class="h6">(タップして開閉します)</span>
+                    </button>
+                  </h2><!--/collapseTrigger-->
+                <div id="collapseSixFeatures" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/concept.png" class="img-fluid mx-auto d-block img-thumbnail">
+                            <h3 class="text-center h4">コンセプト</h3>
+                            <p>期間工として働き方が選べるサイト。直接雇用、人材紹介、派遣の3つのタイプから求人を選べます。</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/list01.png" class="img-fluid mx-auto d-block img-thumbnail">
+                            <h3 class="text-center h4">圧倒的な求人数と質</h3>
+                            <p>期間工専門の求人サイトです。提供する求人の数と質には絶対的な自信があります。</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/support.png" class="img-fluid mx-auto d-block img-thumbnail">
+                            <h3 class="text-center h4">サポート体制</h3>
+                            <p>他にはないサポート体制を完備しています。 </p>
+                            <p>今まで、期間工として働いたことがない方や、金銭面的に不安がある方も安心して就業できます。</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/resume.png" class="img-fluid mx-auto d-block img-thumbnail">
+                            <h3 class="text-center h4">履歴書添削</h3>
+                            <p>素晴らしい経歴を持っているのに、自身のアピールポイントがわからない方や、どうやって履歴書でアピールしたら良いかわからない方は弊社の履歴書添削サービスをぜひご利用ください！</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/sns.png" class="img-fluid mx-auto d-block img-thumbnail">
+                            <h3 class="text-center h4">SNS</h3>
+                            <p>TwitterやLINEなどSNSを使って情報をリアルタイムに配信！</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/fp.png" class="img-fluid mx-auto d-block img-thumbnail">
+                            <h3 class="text-center h4">ファイナンシャルアドバイザー</h3>
+                            <p>日常的な悩みや懸念材料がある方は弊社のファイナンシャルプランナーにぜひご相談ください。様々な角度から分析を行い最適な改善提案をご提供いたします。</p>
+                        </div>
+                    </div>
+                </div><!--/collapseTarget-->
             </div>
-            <div class="col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/concept.png" class="img-fluid mx-auto d-block img-thumbnail">
-                <h3 class="text-center h4">コンセプト</h3>
-                <p>期間工として働き方が選べるサイト。直接雇用、人材紹介、派遣の3つのタイプから求人を選べます。</p>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/list01.png" class="img-fluid mx-auto d-block img-thumbnail">
-                <h3 class="text-center h4">圧倒的な求人数と質</h3>
-                <p>期間工専門の求人サイトです。提供する求人の数と質には絶対的な自信があります。</p>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/support.png" class="img-fluid mx-auto d-block img-thumbnail">
-                <h3 class="text-center h4">サポート体制</h3>
-                <p>他にはないサポート体制を完備しています。 </p>
-                <p>今まで、期間工として働いたことがない方や、金銭面的に不安がある方も安心して就業できます。</p>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/resume.png" class="img-fluid mx-auto d-block img-thumbnail">
-                <h3 class="text-center h4">履歴書添削</h3>
-                <p>素晴らしい経歴を持っているのに、自身のアピールポイントがわからない方や、どうやって履歴書でアピールしたら良いかわからない方は弊社の履歴書添削サービスをぜひご利用ください！</p>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/sns.png" class="img-fluid mx-auto d-block img-thumbnail">
-                <h3 class="text-center h4">SNS</h3>
-                <p>TwitterやLINEなどSNSを使って情報をリアルタイムに配信！</p>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/fp.png" class="img-fluid mx-auto d-block img-thumbnail">
-                <h3 class="text-center h4">ファイナンシャルアドバイザー</h3>
-                <p>日常的な悩みや懸念材料がある方は弊社のファイナンシャルプランナーにぜひご相談ください。様々な角度から分析を行い最適な改善提案をご提供いたします。</p>
-            </div>
-        </div><!--/期間工のミカタ3つの特徴-->
+        </div><!-- /row --><!--/期間工のミカタ６つの特徴-->
         <!-- /row -->
         <div class="row">
             <div class="col-sm-6 col-md-3">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/merumaga.png" class="img-fluid mx-auto d-block">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/merumaga.png" class="img-fluid mx-auto d-block rounded">
                 <h3 class="text-center h4">メルマガ登録</h3>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/makerintro.png" class="img-fluid mx-auto d-block">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/makerintro.png" class="img-fluid mx-auto d-block rounded">
                 <h3 class="text-center h4">メーカー紹介</h3>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/ad01.png" class="img-fluid mx-auto d-block">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/ad01.png" class="img-fluid mx-auto d-block rounded">
                 <h3 class="text-center h4">広告掲載</h3>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/faq.png" class="img-fluid mx-auto d-block">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/faq.png" class="img-fluid mx-auto d-block rounded">
                 <h3 class="text-center h4">期間工のQ&A</h3>
             </div>
         </div><!-- /row -->
@@ -555,15 +562,19 @@
                 <hr>
             </div>
             <div class="col-md-2">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/email.png" alt="" class="img-fluid mx-auto d-block">
                 <p class="text-center">メールでお気軽にご質問ください！</p>
             </div>
             <div class="col-md-2">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/line.png" alt="" class="img-fluid mx-auto d-block">
                 <p class="text-center">LINEで相談可能！お気軽にどうぞ！</p>
             </div>
             <div class="col-md-2">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/facebook.png" alt="" class="img-fluid mx-auto d-block">
                 <p class="text-center">準備中！アカウント作ります！</p>
             </div>
             <div class="col-md-2">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/twitter.png" alt="" class="img-fluid mx-auto d-block">
                 <p class="text-center">つぶやきをお見逃しなく！匿名でのコメントやご相談もOK</p>
             </div>
             <div class="col-md-4">
