@@ -13,25 +13,25 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <!--<img class="navbar-brand img-fluid" src="https://kikankou.co/wp-content/uploads/2018/06/toplogo.jpeg" width="250" alt="">-->
-        <a href="#" class="navbar-brand">期間工のミカタ</a>
+        <a href="#" class="navbar-brand text-white">期間工のミカタ</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">キャンペーン</a>
+                    <a class="nav-link text-white" href="#">キャンペーン</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">3タイプの求人</a>
+                    <a class="nav-link text-white" href="#">3タイプの求人</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">応募の流れ</a>
+                    <a class="nav-link text-white" href="#">応募の流れ</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">求人一覧</a>
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">求人一覧</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">スバル</a>
                         <a class="dropdown-item" href="#">ホンダ</a>
@@ -52,10 +52,10 @@
                 </li>
                 <!-- /dropdown -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">最新記事一覧</a>
+                    <a class="nav-link text-white" href="#">最新記事一覧</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">深掘りブログ情報</a>
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">深掘りブログ情報</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">最新記事</a>
                         <a class="dropdown-item" href="#">スバル</a>
@@ -77,7 +77,7 @@
                 </li>
                 <!-- /dropdown -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">期間従業員公式サーチ</a>
+                    <a class="nav-link text-white" href="#">期間従業員公式サーチ</a>
                 </li>
             </ul>
         </div>
@@ -122,69 +122,70 @@
             },
           });
         </script>
-
-        <div class="row">
-            <div class="col-12">
-                  <h2 class="text-center">
-                    <button class="btn collapse_button btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <span class="h4">選べる３タイプの求人</span>
-                    <br>
-                    <span class="h6">(タップして開閉します)</span>
-                    </button>
-                  </h2><!--/collapseTrigger-->
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="https://kikankou.co/wp-content/uploads/2018/06/search01.jpg" class="img-fluid rounded-circle" alt="">
-                            <h3 class="text-center h4">メーカー公式</h3>
-                            <p>メーカーのオフィシャルサイトから直接雇用 の求人へ直接応募できます。正社員への道もある！(期間従業員公式サーチ)</p>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="https://kikankou.co/wp-content/uploads/2018/06/kari.jpg" class="img-fluid rounded-circle" alt="">
-                            <h3 class="text-center h4">人材紹介</h3>
-                            <p>人材会社を通せば履歴書の添削や個別の相談にも対応してくれます。</p>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="https://kikankou.co/wp-content/uploads/2018/06/haken02.jpg" class="img-fluid rounded-circle" alt="">
-                            <h3 class="text-center h4">派遣</h3>
-                            <p>メーカー雇用ではなく派遣会社との契約。雇用条件は異なるが時給は比較的高い傾向にある。</p>
-                        </div>
-                    </div>
-                </div><!--/collapseTarget-->
-            </div>
-        </div><!-- /row --><!--/collapse-->
         
         <div class="row">
             <div class="col-12">
                   <h2 class="text-center">
-                    <button class="btn collapse_button btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
-                    <span class="h4">応募から採用までの流れ</span>
+                    <button class="btn collapse_button btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="h4">期間工のブログ情報</span>
                     <br>
                     <span class="h6">(タップして開閉します)</span>
                     </button>
                   </h2><!--/collapseTrigger-->
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
                     <div class="row">
-                        <div class="col-md-4">
-                            <img src="https://kikankou.co/wp-content/uploads/2018/06/official-nagare.png" class="img-fluid mx-auto d-block" alt="">
-                            <h3 class="text-center h4">公式からの応募</h3>
-                            <p>メーカーへの直接雇用が可能。応募から就業までが早い！メーカーによっては赴任手当も付くので安心して応募できる！</p>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="https://kikankou.co/wp-content/uploads/2018/06/recruitment-nagare.png" class="img-fluid mx-auto d-block" alt="">
-                            <h3 class="text-center h4">人材紹介会社からの応募</h3>
-                            <p>1回目は人材会社の担当がサポートしてくれるので、安心して応募できる。2回の面接があるが、自分に合った会社を紹介してくれるので、納得して就業可能！</p>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="https://kikankou.co/wp-content/uploads/2018/06/haken-nagare.png" class="img-fluid mx-auto d-block" alt="">
-                            <h3 class="text-center h4">派遣会社からの応募</h3>
-                            <p>メーカーとの直接雇用ではなく派遣会社との契約なので、時給などが直接雇用と違う場合が多い。超短期で稼ぎたい方にオススメ！</p>
-                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/toyota-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">トヨタ期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/nissan-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">日産期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/honda-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">ホンダ期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/daihatsu-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">ダイハツ期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/subaru-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">スバル期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/mazda-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">マツダ期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/isuzu-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">いすゞ期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/aishin-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">アイシン期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/mitsubishi-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">三菱期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/komatsu-blog-2.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">コマツ期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/denso-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">デンソー期間工の情報について</h3>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4">
+                <img src="https://kikankou.co/wp-content/uploads/2018/06/ntn-blog.png" class="img-fluid mx-auto d-block">
+                <h3 class="text-center h5">NTN期間工の情報について</h3>
+            </div>
                     </div>
                 </div><!--/collapseTarget-->
             </div>
-        </div><!-- /row --><!--/collapse-->
-        
+        </div><!-- /row --><!--/期間工のブログ情報-->
         <div class="row">
             <div class="col-12">
                   <h2 class="text-center">
@@ -194,7 +195,7 @@
                     <span class="h6">(タップして開閉します)</span>
                     </button>
                   </h2><!--/collapseTrigger-->
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="row">
                         <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                 <h3 class="text-center h4">スバル期間工</h3>
@@ -407,70 +408,65 @@
                     </div>
                 </div><!--/collapseTarget-->
             </div>
-        </div><!-- /row --><!--/collapse-->
-        
+        </div><!-- /row --><!--/期間工募集中メーカー一覧-->
+
         <div class="row">
-            <div class="col-12">
+            <div class="col-md-6">
                   <h2 class="text-center">
-                    <button class="btn collapse_button btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
-                    <span class="h4">期間工のブログ情報</span>
+                    <button class="btn collapse_button btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="h4">選べる３タイプの求人</span>
                     <br>
                     <span class="h6">(タップして開閉します)</span>
                     </button>
                   </h2><!--/collapseTrigger-->
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="row">
-                        <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/toyota-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">トヨタ期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/nissan-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">日産期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/honda-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">ホンダ期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/daihatsu-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">ダイハツ期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/subaru-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">スバル期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/mazda-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">マツダ期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/isuzu-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">いすゞ期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/aishin-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">アイシン期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/mitsubishi-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">三菱期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/komatsu-blog-2.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">コマツ期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/denso-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">デンソー期間工の情報について</h3>
-            </div>
-            <div class="col-6 col-sm-6 col-md-4">
-                <img src="https://kikankou.co/wp-content/uploads/2018/06/ntn-blog.png" class="img-fluid mx-auto d-block">
-                <h3 class="text-center h5">NTN期間工の情報について</h3>
-            </div>
+                        <div class="col-12">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/search01.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="text-center h4">メーカー公式</h3>
+                            <p>メーカーのオフィシャルサイトから直接雇用 の求人へ直接応募できます。正社員への道もある！(期間従業員公式サーチ)</p>
+                        </div>
+                        <div class="col-12">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/kari.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="text-center h4">人材紹介</h3>
+                            <p>人材会社を通せば履歴書の添削や個別の相談にも対応してくれます。</p>
+                        </div>
+                        <div class="col-12">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/haken02.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="text-center h4">派遣</h3>
+                            <p>メーカー雇用ではなく派遣会社との契約。雇用条件は異なるが時給は比較的高い傾向にある。</p>
+                        </div>
                     </div>
                 </div><!--/collapseTarget-->
-            </div>
+            </div><!--/選べる3タイプの求人-->
+            <div class="col-md-6">
+                  <h2 class="text-center">
+                    <button class="btn collapse_button btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="h4">応募から採用までの流れ</span>
+                    <br>
+                    <span class="h6">(タップして開閉します)</span>
+                    </button>
+                  </h2><!--/collapseTrigger-->
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/official-nagare.png" class="img-fluid mx-auto d-block" alt="">
+                            <h3 class="text-center h4">公式からの応募</h3>
+                            <p>メーカーへの直接雇用が可能。応募から就業までが早い！メーカーによっては赴任手当も付くので安心して応募できる！</p>
+                        </div>
+                        <div class="col-12">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/recruitment-nagare.png" class="img-fluid mx-auto d-block" alt="">
+                            <h3 class="text-center h4">人材紹介会社からの応募</h3>
+                            <p>1回目は人材会社の担当がサポートしてくれるので、安心して応募できる。2回の面接があるが、自分に合った会社を紹介してくれるので、納得して就業可能！</p>
+                        </div>
+                        <div class="col-12">
+                            <img src="https://kikankou.co/wp-content/uploads/2018/06/haken-nagare.png" class="img-fluid mx-auto d-block" alt="">
+                            <h3 class="text-center h4">派遣会社からの応募</h3>
+                            <p>メーカーとの直接雇用ではなく派遣会社との契約なので、時給などが直接雇用と違う場合が多い。超短期で稼ぎたい方にオススメ！</p>
+                        </div>
+                    </div>
+                </div><!--/collapseTarget-->
+            </div><!--/応募から採用までの流れ-->
         </div><!-- /row --><!--/collapse-->
         
         <div class="row">
@@ -486,14 +482,16 @@
                     <div class="row">
                         <div class="col-md-6">
                 <img src="https://kikankou.co/wp-content/uploads/2018/06/0f821d73ddd3e24fd837307fb98d6153.png" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="col-md-6">
                 <p>期間工のミカタはもともとブログとして期間工の方々に役立つ情報発信サイトとしてスターとしました。
                     <p></p>しかし、期間工の方々の生活や今後のキャリアを少しでも手助けしたい。救いたいという想いより、期間工のミカタをバージョンアップさせ、求人サイトとしてリニューアルいたしました。
                     <p></p>ブログ創業より訴えていた、期間工の方々を支援するために、本質的な問いから始め、期間工とは？求人とは？雇用とは？という問いから考え、現在では特徴として選べる3タイプの求人を取り揃えるサイトとして活動しています。 </p>
-            </div>
+                        </div>
                     </div>
                 </div><!--/collapseTarget-->
             </div>
-        </div><!-- /row --><!--/collapse-->
+        </div><!-- /row --><!--/期間工のミカタとは-->
         <!-- /row -->
         <div class="row">
             <div class="col-12">
@@ -532,7 +530,7 @@
                 <h3 class="text-center h4">ファイナンシャルアドバイザー</h3>
                 <p>日常的な悩みや懸念材料がある方は弊社のファイナンシャルプランナーにぜひご相談ください。様々な角度から分析を行い最適な改善提案をご提供いたします。</p>
             </div>
-        </div>
+        </div><!--/期間工のミカタ3つの特徴-->
         <!-- /row -->
         <div class="row">
             <div class="col-sm-6 col-md-3">
@@ -551,14 +549,35 @@
                 <img src="https://kikankou.co/wp-content/uploads/2018/06/faq.png" class="img-fluid mx-auto d-block">
                 <h3 class="text-center h4">期間工のQ&A</h3>
             </div>
-        </div>
-        <!-- /row -->
-        <div class="row">
+        </div><!-- /row -->
+        <footer class="row">
             <div class="col-12">
-                <h2 class="text-center h4">期間工のミカタ</h2>
+                <hr>
             </div>
-        </div>
-        <!-- /col -->
+            <div class="col-md-2">
+                <p class="text-center">メールでお気軽にご質問ください！</p>
+            </div>
+            <div class="col-md-2">
+                <p class="text-center">LINEで相談可能！お気軽にどうぞ！</p>
+            </div>
+            <div class="col-md-2">
+                <p class="text-center">準備中！アカウント作ります！</p>
+            </div>
+            <div class="col-md-2">
+                <p class="text-center">つぶやきをお見逃しなく！匿名でのコメントやご相談もOK</p>
+            </div>
+            <div class="col-md-4">
+                <p class="text-center">お問い合わせ</p>
+                <p class="text-center">求人掲載</p>
+                <p class="text-center">利用規約</p>
+            </div>
+            <div class="col-12">
+                <hr>
+            </div>
+            <div class="col-12">
+                <p class="text-right">Copyrights 2018 期間工のミカタ All rights reserved.</p>
+            </div>
+        </footer><!-- /footer -->
     </div>
     <!-- /container -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
